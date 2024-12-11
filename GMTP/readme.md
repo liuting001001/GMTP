@@ -26,7 +26,6 @@ for the Beijing trajectory dataset please refer to file [bj-data-introduction.md
 ```shell
 # Porto
 python: run_model.py --model BERTContrastiveLM --dataset porto --config porto --gpu_id 0 --mlm_ratio 0.6 --contra_ratio 0.4 --split true --distribution geometric --avg_mask_len 2 --out_data_argument1 trim --out_data_argument2 shift
-#618819
 # BJ
 python run_model.py --model BERTContrastiveLM --dataset bj --config bj --gpu_id 1 --mlm_ratio 0.6 --contra_ratio 0.4 --split true --distribution geometric --avg_mask_len 2 --out_data_argument1 trim --out_data_argument2 shift
 ```
@@ -44,7 +43,6 @@ We can fine-tune the model for downstream tasks. Note that you need to modify th
 ```shell
 # Porto
 python run_model.py --model LinearETA --dataset porto --gpu_id 0 --config porto --pretrain_path libcity/cache/{exp_id}/model_cache/{exp_id}_BERTContrastiveLM_porto.pt
-#10
 # BJ
 python run_model.py --model LinearETA --dataset bj --gpu_id 0 --config bj --pretrain_path libcity/cache/{exp_id}/model_cache/{exp_id}_BERTContrastiveLM_bj.pt
 ```
