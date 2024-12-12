@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Our code is based on Python version 3.8 and PyTorch version 2.3.0+cu118, Please make sure you have installed Python and PyTorch correctly.the source code will comming sooon .
+Our code is based on Python version 3.8 and PyTorch version 2.3.0+cu118, Please make sure you have installed Python and PyTorch correctly.the source code will comming soon .
 
 ## Data
 
