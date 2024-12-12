@@ -2,10 +2,7 @@
 
 ## Requirements
 
-Our code is based on Python version 3.8 and PyTorch version 2.3.0+cu118, Please make sure you have installed Python and PyTorch correctly. Then you can install all the dependencies with the following command by pip:
-```
-pip install -r requirements.txt
-```
+Our code is based on Python version 3.8 and PyTorch version 2.3.0+cu118, Please make sure you have installed Python and PyTorch correctly.the source code will comming sooon .
 
 ## Data
 
