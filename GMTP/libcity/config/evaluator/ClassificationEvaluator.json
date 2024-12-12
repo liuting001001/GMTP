@@ -1,5 +1,0 @@
-{
-  "metrics": ["Precision", "Recall", "F1", "MRR", "NDCG"],
-  "save_modes": ["csv", "json"],
-  "topk": [1, 5, 10]
-}
